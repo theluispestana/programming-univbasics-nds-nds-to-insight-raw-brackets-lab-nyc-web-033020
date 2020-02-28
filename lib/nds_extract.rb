@@ -20,5 +20,5 @@ def directors_totals(nds)
     result[nds[outer_index][:name]] = total_gross
   end
   # Be sure to return the result at the end!
-  nil
+  result
 end
